@@ -1,0 +1,298 @@
+body {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: #FFFFFF;
+}
+
+
+.container {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+
+.head_logo {
+position: absolute;
+left: 316px;
+top: 15px;
+}
+
+#nav {
+    position: absolute;
+    width: 835px;
+    height: 21px;
+    left: 580px;
+    top: 38px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.nav_link {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lang {
+    position: absolute;
+    width: 205px;
+    height: 21px;
+    left: 1342px;
+    top: 39px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#time {
+    position: absolute;
+    width: 449px;
+    height: 21px;
+    left: 625px;
+    top: 87px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+#head_email {
+    position: absolute;
+    width: 205px;
+    height: 21px;
+    left: 1079px;
+    top: 84px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #69A54D;
+}
+
+#num {
+    position: absolute;
+    width: 269px;
+    height: 24px;
+    left: 1342px;
+    top: 84px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h1 {
+    position: absolute;
+    width: 1319px;
+    height: 132px;
+    left: 300px;
+    top: 410px;
+
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 132px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.img img{
+    max-width: 1920px;
+    padding-top: 148px;
+}
+
+.img p {
+    position: absolute;
+    width: 882px;
+    height: 80px;
+    left: 519px;
+    top: 600px;
+
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+/* Элеваторное оборудование Котлы Металлоконструкции Услуги */
+.img ul {
+    position: absolute;
+    width: 838px;
+    height: 40px;
+    left: 276px;
+    top: 167px;
+    text-align: justify;
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+
+}
+
+.img_link {
+    display: inline;
+    padding-right: 60px;
+}
+/* Продукция для аграрной промышленности */
+h2 {
+    position: absolute;
+    width: 1179px;
+    height: 58px;
+    left: 316px;
+    top: 1029px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #222222;
+}
+
+.product p {
+    position: absolute;
+    width: 1289px;
+    height: 180px;
+    left: 316px;
+    top: 1126px;
+    margin-left: 30px;
+    padding-right: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #222222;
+
+}
+
+.product_info span {
+    position: absolute;
+
+
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+
+    color: #CDBD84;
+
+}
+
+.product_info.container {
+    position: absolute;
+    width: 1289px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    position: absolute;
+    width: 1920px;
+    height: 642px;
+    left: 0px;
+    top: 1500px;
+
+    background: #7F9D64;
+}
+/* Свяжитесь с нами */
+.title {
+    position: absolute;
+    width: 1179px;
+    height: 59px;
+    left: 371px;
+    top: 75px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+
+    color: white;
+}
+/* ФИО */
+.name {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 410px;
+    height: 53px;
+    left: 315px;
+    top: 186px;
+
+    border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.number {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 410px;
+    height: 53px;
+    left: 755px;
+    top: 186px;
+
+    border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.email {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 410px;
+    height: 53px;
+    left: 1196px;
+    top: 186px;
+
+    border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.mass {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1290px;
+    height: 143px;
+    left: 315px;
+    top: 268px;
+
+    border: 1px solid rgba(255, 255, 255, 0.48);
+}
+/* Нажимая на кнопку вы даете согласие на обработку персональных данных */
+.button_title {
+    position: absolute;
+    width: 785px;
+    height: 118px;
+    left: 568px;
+    top: 435px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+button {
+    position: absolute;
+width: 250px;
+height: 48px;
+left: 835px;
+top: 492px;
+
+background: #FFFFFF;
+border-radius: 3px;
+}
